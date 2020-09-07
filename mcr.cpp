@@ -59,8 +59,14 @@ cout << "Which cell to mark? i:[0..2], j:[0..2]: ";
 
 cin >> i >> j; 
 
+			while(std::cin.fail())//input validation
+			{
+				   cin.clear();
+				   cin.ignore();
+			    cout<<"invalid input,please input again."<<std::endl;
+			    cin >> i >> j;
+			}
  
-
 if (turn == false) 
 
 game[i][j] = 'X'; 
