@@ -59,7 +59,7 @@ cout << "Which cell to mark? i:[0..2], j:[0..2]: ";
 
 cin >> i >> j; 
 
- 
+                  //no input validation
 
 if (turn == false) 
 
