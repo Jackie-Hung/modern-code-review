@@ -59,7 +59,6 @@ cout << "Which cell to mark? i:[0..2], j:[0..2]: ";
 
 cin >> i >> j; 
 
-cin >> i >> j;
 			while(std::cin.fail())//input validation
 			{
 				   cin.clear();
